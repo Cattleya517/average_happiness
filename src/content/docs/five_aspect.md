@@ -1,4 +1,6 @@
-# Five Main Aspect In Life
+---
+title: Five Main Aspect In Life
+---
 
 ## Spiritual
 
