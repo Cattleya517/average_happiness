@@ -6,16 +6,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Adam Ting Chun Wang',
+			title: 'Average Happiness',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			defaultLocale: 'zh-tw',
 			locales: {
-				en: {
-					label: 'English',
-				},
-				'zh-tw': {
+				root: {
 					label: '繁體中文',
 					lang: 'zh-TW',
+				},
+				en: {
+					label: 'English',
 				},
 			},
 			
