@@ -1,0 +1,33 @@
+/* 奶茶米色暖色調主題 - Milk Tea Warm Palette */
+
+/* 亮色模式 (Light Mode) */
+/* white = 文字/標題色 (深), black = 背景色 (淺) */
+:root {
+	--sl-color-accent-low: #f0e4d8;
+	--sl-color-accent: #a67c52;
+	--sl-color-accent-high: #6b4226;
+	--sl-color-white: #3b2314;
+	--sl-color-gray-1: #4a3425;
+	--sl-color-gray-2: #6b5544;
+	--sl-color-gray-3: #8c7661;
+	--sl-color-gray-4: #b8a08a;
+	--sl-color-gray-5: #d9c8b6;
+	--sl-color-gray-6: #f2e8de;
+	--sl-color-black: #faf5ef;
+}
+
+/* 深色模式 (Dark Mode) */
+/* white = 文字/標題色 (淺), black = 背景色 (深) */
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #3a2618;
+	--sl-color-accent: #c9a47e;
+	--sl-color-accent-high: #eeddc9;
+	--sl-color-white: #f5ebe0;
+	--sl-color-gray-1: #e0d0c0;
+	--sl-color-gray-2: #bfa88f;
+	--sl-color-gray-3: #9c8268;
+	--sl-color-gray-4: #6e5440;
+	--sl-color-gray-5: #4a3628;
+	--sl-color-gray-6: #302115;
+	--sl-color-black: #1c120a;
+}

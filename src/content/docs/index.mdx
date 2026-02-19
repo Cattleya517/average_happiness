@@ -6,35 +6,60 @@ hero:
   tagline: Try to write some tricks about happiness to make myself happy :)
   image:
     file: ../../assets/IMG_3639.JPG
-  actions:
-    - text: Start
-      link: /five_aspect
-      icon: heart
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
 
 ## Five Major Aspects in Life
 
-<CardGrid stagger>
-	<Card title="Spritual" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Relational" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="I hate Documentation" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+
+<LinkCard
+  title="Spiritual"
+  href="./reference/spiritual"
+  description="Configure Starlight to support multiple languages."
+/>
+<LinkCard
+  title="Physical"
+  href="./reference/spiritual"
+  description="Configure Starlight to support multiple languages."
+/>
+<LinkCard
+  title="Intellectual"
+  href="./reference/spiritual"
+  description="Configure Starlight to support multiple languages."
+/>
+<LinkCard
+  title="Relational"
+  href="./reference/spiritual"
+  description="Configure Starlight to support multiple languages."
+/>
+<LinkCard
+  title="Emotional"
+  href="./reference/spiritual"
+  description="Configure Starlight to support multiple languages."
+/>
+
+
+Dashboard: 
+* 先給與量化分數，若太低再尋找質性的理由（為什麼我會覺得我在這個面向分數過低？）
+
+工作（各種勞動形式）
+
+遊戲：單純是為了感受樂趣的活動
+
+健康
+
+	飲食
+
+	運動
+
+	睡眠
+
+關係
+
+	家人
+
+	朋友
+
