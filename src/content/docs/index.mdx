@@ -1,11 +1,10 @@
 ---
 title: Welcome to Average Happiness	 
-description: You deserved to be happy even if your are not the chosen one.
-#template: splash # Remove or comment out this line to display the site sidebar on this page.
+description: You deserved to be happy even if you don't thing you are the special one.
 hero:
   tagline: Try to write some tricks about happiness to make myself happy :)
   image:
-    file: ../../assets/IMG_3639.JPG
+    file: ../../assets/processing_cat.JPG
 
 ---
 
@@ -13,40 +12,64 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 import { LinkCard } from '@astrojs/starlight/components';
 import { Aside } from '@astrojs/starlight/components';
 
+## SPIRE 模型
+
+SPIRE模型：為了讓使用者快速了解幸福感的架構，以及找到對自己有幫助的內容，我借用了Tal Ben-Shahar的「SPIRE模型」，針對五大面向歸類內容。
+
+日後若有發現更適合的架構，我可能會進行替換。例如關於「目標」相關內容，我目前放在"Spiritual"類別下，但我覺得似乎沒有完全吻合。
+
+## 設計哲學與目標
+
+- **普遍性**：對使用者的個人背景做最低程度的預設，提供適用於所有人的知識與實踐技巧。
+
+- **操作優先**：降低學理與專業知識的說明，優先提供可實踐技巧與思想實驗
+
+  （對於理論知識有興趣的使用者請見「參考資料」）
+
+- **互動**: 主動參與的學習吸收效果最好，邀請使用者在學習時也能帶入自己的經驗進行思考。
+
+<Aside type="note" title="提醒">
+本站內容聚焦提升成年人幸福感相關內容。
+
+兒時與青少年時期的經驗對幸福感的影響十分顯著，但不是本站重點。
+
+若有相關內容我也會放在「參考資料」區作爲參考。
+</Aside>
+
+
 ## Five Major Aspects in Life
 
 
 <LinkCard
   title="Spiritual"
-  href="./reference/spiritual"
-  description="Configure Starlight to support multiple languages."
+  href="./spiritual"
+  description="任何關於靈性、目標與生命意義的幸福感知識"
 />
 <LinkCard
   title="Physical"
-  href="./reference/spiritual"
-  description="Configure Starlight to support multiple languages."
+  href="./physical"
+  description="關於生理面向如何影響我們的幸福感"
 />
 <LinkCard
   title="Intellectual"
-  href="./reference/spiritual"
-  description="Configure Starlight to support multiple languages."
+  href="./intellectual"
+  description="關於思考、知識與學習如何影響我們的幸福感"
 />
 <LinkCard
   title="Relational"
-  href="./reference/spiritual"
-  description="Configure Starlight to support multiple languages."
+  href="./relational"
+  description="關於人際關係與互動如何影響我們的幸福感"
 />
 <LinkCard
   title="Emotional"
-  href="./reference/spiritual"
-  description="Configure Starlight to support multiple languages."
+  href="./emotional"
+  description="關於我們的情緒如何影響我們的幸福感"
 />
 
 
+### 儀表板測驗: 你可以針對以下的生活面向評分，決定先去哪個部分看看？
 
-
-Dashboard:
-* 先給與量化分數，若太低再尋找質性的理由（為什麼我會覺得我在這個面向分數過低？）
+先給與量化分數，若太低再尋找質性的理由（為什麼我會覺得我在這個面向分數過低？）
 
 工作（各種勞動形式）
 
@@ -66,7 +89,7 @@ Dashboard:
 
 	朋友
 
-<Aside type="caution" title="提醒">
+<Aside type="caution" title="注意">
 本站內容僅為個人心得分享，不構成任何醫療建議。
 
 若您正面臨身心方面的困擾，建議尋求專業醫療人員的協助。
