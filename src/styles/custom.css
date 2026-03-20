@@ -16,18 +16,18 @@
 	--sl-color-black: #f0e2d0;
 }
 
-/* 深色模式 (Dark Mode) */
+/* 深色模式 (Dark Mode) — 溫暖舊書頁風格 */
 /* white = 文字/標題色 (淺), black = 背景色 (深) */
 :root[data-theme='dark'] {
-	--sl-color-accent-low: #3a2618;
-	--sl-color-accent: #c9a47e;
-	--sl-color-accent-high: #eeddc9;
-	--sl-color-white: #f5ebe0;
-	--sl-color-gray-1: #e0d0c0;
-	--sl-color-gray-2: #bfa88f;
-	--sl-color-gray-3: #9c8268;
-	--sl-color-gray-4: #6e5440;
-	--sl-color-gray-5: #4a3628;
-	--sl-color-gray-6: #302115;
-	--sl-color-black: #1c120a;
+	--sl-color-accent-low: #4a3520;
+	--sl-color-accent: #c9956a;
+	--sl-color-accent-high: #f0dcc8;
+	--sl-color-white: #f5ead8;
+	--sl-color-gray-1: #e6d8c4;
+	--sl-color-gray-2: #cbb89e;
+	--sl-color-gray-3: #a69076;
+	--sl-color-gray-4: #7d6a52;
+	--sl-color-gray-5: #5a4935;
+	--sl-color-gray-6: #443627;
+	--sl-color-black: #352a1e;
 }

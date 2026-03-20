@@ -75,6 +75,13 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Others',
+					translations: { 'zh-TW': '其他' },
+					items: [
+						{ label: 'Income', slug: 'others/income', translations: { 'zh-TW': '收入' } },
+					],
+				},
+				{
 					label: 'Reference',
 					translations: { 'zh-TW': '參考資料' },
 					items: [
